@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "JSON Viewer",
+  "version": "1.0.0",
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script/src/main.tsx"],
+      "media": []
+    }
+  ]
+}
