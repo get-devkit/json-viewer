@@ -1,36 +1,29 @@
 import { useState } from "react";
 
 //@ts-ignore
-export default function ToggleButton({onClickToggle}) {
-  const [isActiveRaw, setActiveRaw] = useState(false);
-  const [isActiveParsed, setActiveParsed] = useState(true);
+export default function ToggleButton({ onClickToggle }) {
+  const [isActive, setActive] = useState("Parsed");
 
-  const toggleClassRaw = () => {
-    isActiveRaw ? "" : setActiveRaw(!isActiveRaw);
-    setActiveParsed(false);
-    onClickToggle('Raw')
+  const toggleClass = (text: string) => {
+    setActive(text);
+    onClickToggle(text);
   };
 
-  const toggleClassParsed = () => {
-    isActiveParsed ? "" : setActiveParsed(!isActiveParsed);
-    setActiveRaw(false);
-    onClickToggle('Parsed')
-  };
   return (
     <>
       <div id="optionBar">
         <button
           id="buttonPlain"
-          className={isActiveRaw ? "selected" : ""}
-          onClick={toggleClassRaw}
+          className={isActive == "Raw" ? "selected" : ""}
+          onClick={() => toggleClass("Raw")}
         >
           <span>Raw</span>
         </button>
 
         <button
           id="buttonFormatted"
-          className={isActiveParsed ? "selected" : ""}
-          onClick={toggleClassParsed}
+          className={isActive == "Parsed" ? "selected" : ""}
+          onClick={() => toggleClass("Parsed")}
         >
           <span>Parsed</span>
         </button>
