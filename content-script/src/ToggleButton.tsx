@@ -14,7 +14,7 @@ export default function ToggleButton({ onClickToggle }) {
       <div id="optionBar">
         <button
           id="buttonPlain"
-          className={isActive == "Raw" ? "selected" : ""}
+          className={isActive == "Raw" ? "selectedGetDevKitJsonViewer" : ""}
           onClick={() => toggleClass("Raw")}
         >
           <span>Raw</span>
@@ -22,7 +22,7 @@ export default function ToggleButton({ onClickToggle }) {
 
         <button
           id="buttonFormatted"
-          className={isActive == "Parsed" ? "selected" : ""}
+          className={isActive == "Parsed" ? "selectedGetDevKitJsonViewer" : ""}
           onClick={() => toggleClass("Parsed")}
         >
           <span>Parsed</span>

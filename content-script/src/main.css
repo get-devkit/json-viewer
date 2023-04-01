@@ -45,7 +45,7 @@ body > pre {
   text-shadow: 1px 1px rgba(255, 255, 255, 0.3);
 }
 
-.selected {
+.selectedGetDevKitJsonViewer {
   box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.2);
   background: #ebebeb linear-gradient(#e4e4e4, #dfdfdf 40%, #dcdcdc);
   color: #333;
