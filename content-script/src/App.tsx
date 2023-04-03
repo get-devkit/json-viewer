@@ -2,7 +2,7 @@
 /// <reference types="vite-plugin-svgr/client" />
 
 import ReactJson from "react-json-view";
-import { SetStateAction, useState } from "react";
+import { useState } from "react";
 import ToggleButton from "./ToggleButton";
 import ConfigPanel from "./ConfigPanel";
 
