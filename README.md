@@ -2,6 +2,10 @@
 
 JSON Viewer is a lightweight and user-friendly chrome extension that automatically detects JSON data in Chrome pages and formats it in a tree view for easy reading and navigation. It is built using React.js and the react-json-view npm package. With this extension, you can quickly analyze and debug complex JSON data without having to leave your browser.
 
+A look of the JSON Viewer chrome extension on navigating to [dummyjson](https://dummyjson.com/products).
+
+![Alt Text](/public/demo.png)
+
 ## Installation
 
 To use the JSON Viewer extension, follow these steps:
@@ -28,7 +32,7 @@ JSON Viewer works automatically on any Chrome page with JSON data. Once installe
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/get-devkit/json-viewer/blob/main/LICENSE.md) file for details. 
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/get-devkit/json-viewer/blob/main/LICENSE.md) file for details.
 
 ## Contribution
 
@@ -36,6 +40,6 @@ If you would like to contribute to the JSON Viewer project, clone the repository
 
 ## Credits
 
-JSON Viewer was built by [DevKit](https://www.getdevkit.com/) using React.js and the react-json-view npm package. We'd like to thank the developers of these tools for their hard work and dedication to the open-source community. 
+JSON Viewer was built by [DevKit](https://www.getdevkit.com/) using React.js and the react-json-view npm package. We'd like to thank the developers of these tools for their hard work and dedication to the open-source community.
 
 If you have any questions, issues, or feedback regarding the JSON Viewer extension, please feel free to join us at [discord](https://discord.com/invite/qFaUEhsME8).
