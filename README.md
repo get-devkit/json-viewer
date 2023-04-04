@@ -1,47 +1,41 @@
-# React TypeScript Chrome Extension
+# JSON Viewer Chrome Extension
 
-This repository includes examples of how to set up a Chrome Extension with React and TypeScript.
+JSON Viewer is a lightweight and user-friendly chrome extension that automatically detects JSON data in Chrome pages and formats it in a tree view for easy reading and navigation. It is built using React.js and the react-json-view npm package. With this extension, you can quickly analyze and debug complex JSON data without having to leave your browser.
 
-This project uses [Vite](https://vitejs.dev/) and [crxjs](https://crxjs.dev/vite-plugin) to build the extension.
+## Installation
 
-## Setup
+To use the JSON Viewer extension, follow these steps:
 
-### Clone repository
-```sh
-git clone git@github.com:yosevu/react-content-script.git
-```
+1. Download the extension from the Chrome Web Store or Github repository.
+2. Click on the "Add to Chrome" button.
+3. Once installed, the extension will automatically detect JSON data on any Chrome page and format it for you.
 
-### Install dependencies
+## Features
 
-```sh
-yarn
-```
+JSON Viewer comes with a number of useful features, including:
 
-### Build extension
+- **Automatic JSON Detection**: Automatically detects JSON data in Chrome pages and formats it in a tree view for easy reading and navigation.
+- **JSON Parsing**: Parses and displays JSON data in a tree view format for easy reading and navigation.
+- **JSON Formatting**: Formats JSON data for readability and ease of use.
+- **JSON Editing**: Edit your JSON data directly in the extension, with a form that allows you to edit and modify any JSON property, while also supporting JSON arrays and nested objects.
+- **Customizable configuration**: Use the Edit Config form to customize the way JSON data is displayed, including options for sorting, collapsing, and more.
 
-```
-yarn build
-```
+You can use the Edit Config form to customize how the JSON data is displayed. To access it, select "Edit Config". From there, you can customize options like sorting, collapsing, and more.
 
-### Load extension
+## Usage
 
-1. Navigate to [chrome://extensions/](chrome://extensions/)
-1. Turn on the "Developer mode" toggle switch in the top right of the window
-1. Click the "Load unpacked" button in top left of the window
-1. Go to the `react-content-script` directory and select the `dist` directory to load the extension
-1. Navigate to https://blank.org/ to see the Content Script React app
-1. Go to extensions and click "React TypeScript Chrome Extension" to see the Popup React app
+JSON Viewer works automatically on any Chrome page with JSON data. Once installed and enabled, the extension will automatically detect and format JSON data in a tree view format. You can navigate through the tree to view different parts of the JSON data, and use the Edit Config form to customize how it is displayed.
 
-## [Popup](https://developer.chrome.com/docs/extensions/mv3/user_interface/#popup)
+## License
 
-The popup source code is at the root directory.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/get-devkit/json-viewer/blob/main/LICENSE.md) file for details. 
 
-## [Content Script](https://developer.chrome.com/docs/extensions/mv3/content_scripts/)
+## Contribution
 
-The content script source code is in the `content-script` directory.
+If you would like to contribute to the JSON Viewer project, clone the repository and get started.
 
-<img width="895" alt="Screen Shot 2022-06-18 at 10 04 04 AM" src="https://user-images.githubusercontent.com/16216104/174416528-6e5ad272-5faa-41d4-a717-c210ed4924b0.png">
+## Credits
 
-## Background
+JSON Viewer was built by [DevKit](https://www.getdevkit.com/) using React.js and the react-json-view npm package. We'd like to thank the developers of these tools for their hard work and dedication to the open-source community. 
 
-This repository was originally part of [How to inject a React app into a Chrome Extension as a Content Script](https://medium.com/@yosevu/how-to-inject-a-react-app-into-a-chrome-extension-as-a-content-script-3a038f611067). 
+If you have any questions, issues, or feedback regarding the JSON Viewer extension, please feel free to join us at [discord](https://discord.com/invite/qFaUEhsME8).
