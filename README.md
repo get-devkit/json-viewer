@@ -4,7 +4,7 @@ JSON Viewer is a lightweight and user-friendly chrome extension that automatical
 
 A look of the JSON Viewer chrome extension on navigating to [dummyjson](https://dummyjson.com/products).
 
-![Alt Text](/public/demo.png)
+![JSON Viewer Demo](/public/demo.png)
 
 ## Installation
 
