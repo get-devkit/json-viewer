@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "JSON Viewer DevGetKit",
-  "description": "Transform your JSON viewing experience with our powerful Chrome extension. Visualize and navigate JSON data in your browser with syntax highlighting and other intuitive features. Download now for a streamlined workflow!",
+  "description": "Enhance your JSON viewing in Chrome with our extension. Visualize & navigate data with syntax highlighting. Download for streamlined workflow.",
   "version": "1.0.0",
   "icons": {
     "16": "getdevkit-json-extension-logo.png"
